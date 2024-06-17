@@ -60,9 +60,12 @@ function register(a) {
          if (pass.length<=8) {
              passwordError.innerText='Password should not be less than 8 character';
           }
-          if (pass!==conpass) {
+        else if(pass!==conpass) {
             passwordError.innerText='password doesnot match'
           }
+          else{
+
+        }
     
     }
     else{
